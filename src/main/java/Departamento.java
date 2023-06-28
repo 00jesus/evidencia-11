@@ -61,6 +61,15 @@ public class Departamento {
         }
     }
     public void mostrarTodoElPersonal() {
-        throw new UnsupportedOperationException();
+        for (Profesor profe: listaProfesores) {
+            System.out.println(profe);
+        }
+        for (Estudiante estudiante: listaEstudiantes) {
+            System.out.println(estudiante);
+        }
+        for (Administrativo admin: listaAdministrativos) {
+            System.out.println(admin);
+        }
+
     }
 }
